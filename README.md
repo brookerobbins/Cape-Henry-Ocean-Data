@@ -10,6 +10,8 @@ NOAA National Data Buoy Center (NDBC): Cape Henry offshore wave buoy (Station 44
 
 NOAA CO-OPS / PORTS: Cape Henry wind station (Station CHYV2)
 
+<img width="782" height="580" alt="image" src="https://github.com/user-attachments/assets/b5ade6a0-d324-478b-80e6-afd6984d836d" />
+
 # Variables
 
 WVHT - Significant wave height (meters)
