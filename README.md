@@ -12,39 +12,21 @@ NOAA CO-OPS / PORTS: Cape Henry wind station (Station CHYV2)
 
 # Variables
 
-Variable
+WVHT - Significant wave height (meters)
 
-Description
+DPD - Dominant wave period (seconds)
 
-WVHT
+WSPD - Wind speed (meters per second)
 
-Significant wave height (meters)
+GST - Wind gust (meters per second)
 
-DPD
+PRES - Atmospheric pressure (hPa)
 
-Dominant wave period (seconds)
+ATMP - Air temperature (°C)
 
-WSPD
+Season - season
 
-Wind speed (meters per second)
-
-GST
-
-Wind gust (meters per second)
-
-PRES
-
-Atmospheric pressure (hPa)
-
-ATMP
-
-Air temperature (°C)
-
-Season
-
-Meteorological season
-
-Data Processing
+# Data Processing
 
 Original NOAA observations were cleaned by replacing designated missing-value codes with missing values. Wave and wind observations were matched by timestamp, and daily median values were calculated. Each daily observation represents the median of available matched measurements for that day.
 
@@ -58,12 +40,12 @@ Summer: June–August
 
 Fall: September–November
 
-Limitations
+# Limitations
 
-The wave and wind stations are approximately 16 nautical miles apart. Therefore, the observations represent regional conditions near Cape Henry rather than measurements taken at the exact same location. The dataset includes only days with usable paired observations.
+The wave and wind stations are 16 nautical miles apart. Therefore, the observations represent regional conditions near Cape Henry rather than measurements taken at the exact same location. The dataset includes only days with usable paired observations.
 
-Sources
+# Sources
 
-NOAA NDBC Station 44099
+NOAA NDBC Station 44099: https://www.ndbc.noaa.gov/station_page.php?station=44099
 
-NOAA Cape Henry Station CHYV2
+NOAA Cape Henry Station CHYV2: https://www.ndbc.noaa.gov/station_page.php?station=chyv2
